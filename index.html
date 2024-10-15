@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Assignment 1</h3>
+    <h2  id="demo2">What Can JavaScript Do?</h2>
+    <p>JavaScript can change HTML attribute values.</p>
+
+    <button type="button" onclick='document.getElementById("demo2").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+
+    <h3>Assignment 2</h3>
+
+    <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+
+    <button onclick="document.getElementById('myImage').src='4miy3wu4aphve4h1wdi9nqnn51w30irw.jpg'">Astana</button>
+
+    <img id="myImage" src="4miy3wu4aphve4h1wdi9nqnn51w30irw.jpg" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='65e199ea4ec6c.jpg'">Almata</button>
+
+<h3>Assignment 3</h3>
+
+<p id="st">JavaScript can change the style of an HTML element.</p>
+
+<button type="button" onclick="document.getElementById('st').style.fontWeight='700'">Bold</button>
+
+<h3>Assignment 4</h3>
+
+<p id="hide">Today date:09.10.2024</p>
+
+<button type="button" onclick="document.getElementById('hide').style.display='none'">Hiding</button>
+<button type="button" onclick="document.getElementById('hide').style.display='block'"> Showing</button>
+
+<p id = "Pi1"></p>
+<p id = "Pi2"></p>
+
+<h3>Assignment 8</h3>
+<p id = "date"></p>
+
+<h3>Assignment 9</h3>
+<p id = "leap"></p>
+
+<h3>Assignment 10</h3>
+
+    <label for="num1">1st Number:</label>
+    <input type="number" id="num1" required><br><br>
+
+    <label for="num2">2nd Number:</label>
+    <input type="number" id="num2" required><br><br>
+
+    <button onclick="multiply()">Multiply</button>
+    <button onclick="divide()">Divide</button><br><br>
+
+    <p>The Result Is:</p>
+    <p id = "result">0</p>
+
+<h3>Assignment 11</h3>
+
+<p id="celsiusToFahrenheit"></p>
+<p id="fahrenheitToCelsius"></p>
+
+<h3>Assignment 12</h3>
+<p id="even"></p>
+
+<h3>Assignment 13</h3>
+
+    <label for="num1">1st Number:</label>
+    <input type="number" id="v1" required><br><br>
+    <label for="num2">2nd Number:</label>
+    <input type="number" id="v2" required><br><br>
+    <label for="num3">3nd Number:</label>
+    <input type="number" id="v3" required><br><br>
+
+    <button onclick="less()">Less one</button>
+    <button onclick="largest()">Largest</button><br><br>
+
+    <p>The Result Is:</p>
+    <p id = "r">0</p>
+
+<h3>Assignment 14</h3>
+
+    <label for="A">Side A:</label>
+    <input type="number" id="A" placeholder="Enter side A">
+    
+    <label for="B">Side B:</label>
+    <input type="number" id="B" placeholder="Enter side B">
+    
+    <label for="C">Side C:</label>
+    <input type="number" id="C" placeholder="Enter side C">
+    
+    <button onclick="heron()">Calculate Area with Heron's formula</button>
+    
+    <p id="heronResult"></p>
+
+    <h3>Assignment 17</h3> 
+    <label for="second">Enter seconds:</label>
+    <input type="number" id="second">
+    <button onclick="convert()">Convert</button>
+    <p id="hourAndMin"></p>
+
+<h3>Assignment 18</h3> 
+
+    <label for="arrayInput">Введите числа через запятую:</label>
+    <input type="text" id="arrayInput" placeholder="например: 1,2,3,4,2,2,5">
+    <button onclick="findMostFrequent()">Найти</button>
+    <p id="max"></p>
+
+
+
+
+</body>
+ <script src = "./index.js"></script>
+</html>
